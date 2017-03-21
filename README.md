@@ -2,7 +2,7 @@
 
 Creates interactive transcripts from text tracks.
 
-## Alpha Release 2
+## Alpha Release 3
 
 Please report any issues or feature requests on the tracker. Thank you!
 
@@ -27,7 +27,7 @@ Once you've added the plugin script to your page, you can use it with any video:
       var options = {
         showTitle: false,
         showTrackSelector: false,
-      });
+      };
 
       // Initialize the plugin.
       var transcript = this.transcript(options);
